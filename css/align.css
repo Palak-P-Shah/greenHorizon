@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 5fr;
+    column-gap: 5px;
+    row-gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   
+   img {
+     max-width: 80%;
+     max-height: 80%;
+   }
+   
+   .text {
+     font-size: 20px;
+   }

@@ -1,0 +1,92 @@
+html,
+body {
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  background-color: #81b475;
+  z-index: -2;
+  color: #606060;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+input {
+  font-size: 20px;
+}
+
+b {
+  font-size: 20px;
+}
+#totalCarbon, #totalPlantedCount, #calculateCarbon, #calculatePlanted {
+    margin: 0;
+    padding: 0;
+}
+#forest {
+  padding: 14px;
+  border-radius: 50px 50px;
+  font-size: 16px;
+  background-color: #78a96e;
+  color: #8fca83;
+}
+
+#geochart-colors {
+  padding: 14px;
+  border-radius: 50px 50px;
+  background-color: #78a96e;
+  color: #8fca83;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr
+    ;
+  grid-template-areas: "left mid right" "bottom bottom bottom" ". . .";
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 2px;
+}
+
+img:hover {
+  opacity: 0.4;
+}
+
+.left {
+  grid-area: left;
+}
+
+.mid {
+  grid-area: mid;
+}
+
+.right {
+  grid-area: right;
+}
+
+.bottom {
+  grid-area: bottom;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #8fca83;
+  opacity: 0.9;
+  color: #606060;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  font-size: 10px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

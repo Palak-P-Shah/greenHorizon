@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script> 
+      $(function()
+      {
+        $("#nav").load("nav.html"); 
+        $("#footer").load("footer.html"); 
+      });
+  </script>
+</head>
+<body>
+  <div id="nav"></div>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .video {
+    overflow: none;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    }
+    
+  </style>  
+  
+<h2>These are the video and images of the place before the trees are planted</h2>
+<p>Kindly have a look:</p>
+<!-- <div class="video1">
+    <video width="470" height="300" controls>
+    <source src="images/earlier/Nilkanth_Mahadev_Primary_School/IMG_2605.MOV" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+</div> -->
+
+<div class="row">
+  
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 1.png" alt="Earlier image 1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 2.png" alt="Earlier image 2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 3.png" alt="Earlier image 3" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 4.png" alt="Earlier image 4" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 5.png" alt="Earlier image 5" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 6.png" alt="Earlier image 6" style="width:100%">
+  </div>
+</div>
+<h2>These are the images of the place after the trees are planted</h2>
+<div class="row">
+    <div class="column">
+      <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 1.png" alt="Earlier image 1" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 2.png" alt="Earlier image 2" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/earlier/Nilkanth_Mahadev_Primary_School/earlier 2.png" alt="Earlier image 2" style="width:100%">
+    </div>
+    
+</div>    
+<div id="footer"></div>
+</body>
+</html>
